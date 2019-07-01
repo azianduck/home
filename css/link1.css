@@ -1,0 +1,84 @@
+
+/* ANCHOR JUMP LINKS */
+.anchorlink {	
+	display: flex;
+	justify-content: space-between;
+	padding: 0px;
+	margin: 0px;
+}
+.anchorlink li:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.anchorlink li {
+    font-size: 14pt;
+	list-style: none;
+	display: inline;
+	border-radius: 10px;
+	background: #00AEEF;
+	color: white;
+	width: 300px;
+	height: 45px;
+	text-align: center
+}
+.anchorlink p {
+	margin-top: 10px;
+	margin-right: 10px;
+}
+/* END OF ANCHOR JUMP LINK */
+
+/* TITLE ANCHOR LINE */
+.line1 {	
+	border-bottom: 1px solid grey;
+	padding-top: 70px;
+}
+.line1 p {
+	font-size: 18pt;
+	margin-bottom: 15px;
+}
+
+/* CAPTION TABLE */
+.captionbar {
+	border: 15px solid #ECE6E6;
+	background-color: #ECE6E6;
+	margin-top: 30px;
+}
+
+.captionbar p {
+	font-size: 16pt; 
+	margin: 0px;
+}
+
+/* FIX ANCHOR LINK 2 TABLE */
+.rowA li {	
+	margin-right: 20px; /* .rowA is a part of .row1 in index.css */ 
+}
+.rowB li {
+	margin-right: 20px; /* .rowB is a part of .row2 in index.css */ 
+}
+/* DRAW  TABLE 1 */
+table,th,td {
+	border: 2px solid #CCCCCC;
+	border-collapse: collapse;
+	height: 35px;
+	text-align: center;
+}
+table th {
+	color: white;
+}
+table #td1,#td2 {
+	background-color: #ECE6E6;
+	width: 68px;
+}
+table #td3 {
+	background-color: #6DCFF6;
+}
+table #td4,#td5,#td6 {
+	background-color: #D3D7D9;
+	width: 68px;
+
+}
+table th {
+	background-color: #ACD373;
+}
